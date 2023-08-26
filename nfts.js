@@ -1,28 +1,28 @@
 const nfts = [
     {
         name: '0',
-        description: 'Airbrush portrait of wolverine from xmen, by dimitri patelis marvel masterpieces , romero brito',
-        image: 'Qmd9nvWNzS1BLAZU7gftEH8uMu99bBgjnf2cRUz9VRFt7x'
-    },
+        description: 'Potrait of princess',
+        image: 'https://olive-intellectual-louse-350.mypinata.cloud/ipfs/QmUQdobo6LikRUykVP2tyTq8nYbTWmnCsqoZRnjsnsjUnw'
+     },
     {
         name: '1',
-        description: 'Airbrush portrait of wolverine from xmen, by dimitri patelis marvel masterpieces , romero brito',
-        image: 'QmTZhBw1r34G8jpMVchMSZAQUSVHGxa46s1G4vyLuX4XeL'
+        description: 'Potrait of princess',
+        image: 'https://olive-intellectual-louse-350.mypinata.cloud/ipfs/QmWbiEL5dY5pLP9jvFcGBpPCfSFrJwh5gcQ7Dkh2rRvAcR'
     },//change
     {
         name: '2',
-        description: 'Airbrush portrait of wolverine from xmen, by dimitri patelis marvel masterpieces , romero brito',
-        image: 'QmXTR8S8yRqeWmaotQ4TgzMxN6zH2Ddi3VSKPPFhpZnp2f'
+        description: 'Potrait of princess',
+        image: 'https://olive-intellectual-louse-350.mypinata.cloud/ipfs/QmRe84HAgpmeqN2FHEFfV1JcrZu7ZVi9sEEen5evAdYCRq'
     },
     {
         name: '3',
-        description: 'Airbrush portrait of wolverine from xmen, by dimitri patelis marvel masterpieces , romero brito',
-        image: 'QmeXzQeP8LM7wuwnVvn6jh9XbjVofGJDdKcoj6Bc3gJG2L'
+        description: 'Potrait of princess',
+        image: 'https://olive-intellectual-louse-350.mypinata.cloud/ipfs/QmPpYMPorTuUc6TGA4fNtaNj989fF5EfKZWbMyqwiJjJwD'
     },
     {
         name: '4',
-        description: 'Airbrush portrait of wolverine from xmen, by dimitri patelis marvel masterpieces , romero brito',
-        image: 'QmdAfDGDvGmVqxtKJyWHAAnFYSfYu3V3XMPCPFr7NidATX'
+        description: 'Potrait of princess',
+        image: 'https://olive-intellectual-louse-350.mypinata.cloud/ipfs/Qmez3r4ufAAGKz2yaAnXBLX4gDaS2g28pCU89ixhLVWiSN'
     },    
 ];
 
