@@ -1,7 +1,7 @@
 // Import necessary packages and contracts
 const { ethers } = require("hardhat");
-const { FXRootContractAbi } = require('../artifacts/FXRootContractAbi.js');
-const ABI = require('../artifacts/contracts/Wolverine.sol/Wolverine.json');
+const { FXRootContractAbi } = require('../FXRootContractAbi');
+const ABI = require('../artifacts/contracts/Bronco.sol/Bronco.json');
 require('dotenv').config();
 
 //Transfer ERC721A tokens to the Ethereum FxChain network
@@ -19,8 +19,8 @@ async function main() {
   const [signer] = await ethers.getSigners();
 
   // Get ERC721A contract instance
-  const NFT = await ethers.getContractFactory("Wolverine");
-  const nft = await NFT.attach('0xDea1998751BCB79535F4AA9A0934A24063D4bD76');
+  const NFT = await ethers.getContractFactory("Bronco");
+  const nft = await NFT.attach('0x86b1cD103E890b227f84A3eafDa3DfFFa68af124');
 
   // Get FXRoot contract instance
   const fxRootAddress = '0xF9bc4a80464E48369303196645e876c8C7D972de';
