@@ -32,7 +32,7 @@ async function main() {
   // Approve the nfts for transfer
   const approveTx = await nft.connect(signer).setApprovalForAll(fxRootAddress, true);
   await approveTx.wait();
-  console.log('Approval confirmed');
+  console.log('Approval is confirmed');
 
   // Deposit the nfts to the FXRoot contracts
   for (let i = 0; i < tokenIds; i++) {
@@ -47,7 +47,7 @@ async function main() {
     await depositTx.wait();
   }
 
-  console.log("Approved and Minted");
+  console.log("Approved and Minted Successfully");
 
   
   // Test balanceOf
